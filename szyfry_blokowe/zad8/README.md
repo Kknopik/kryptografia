@@ -1,2 +1,4 @@
-# kryptografia
-Hell. pain and suffering
+# Opis
+II wariant - pliki z _other
+te do sprawdzenia!
+
