@@ -46,7 +46,7 @@ def CBC(binary_data, IV):
 
     return R[-1] + L[-1]
 
-image = Image.open("obraz.pbm")
+image = Image.open("zad8/obraz.pbm")
 
 image = image.convert("L")
 

@@ -46,9 +46,9 @@ def CBC(binary_data, IV):
 
     return R[-1] + L[-1]
 
-image = Image.open("obraz.png")
-#image = Image.open("obraz.jpg")
-#image = Image.open("obraz.gif")
+image = Image.open("zad8/obraz.png")
+#image = Image.open("zad8/obraz.jpg")
+#image = Image.open("zad8/obraz.gif")
 image = image.convert("L")
 binary_data = ''.join(format(pixel, '08b') for pixel in image.tobytes())
 
